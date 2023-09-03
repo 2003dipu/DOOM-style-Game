@@ -1,6 +1,5 @@
 import pygame as pg
 
-
 class Sound:
     def __init__(self, game):
         self.game = game
@@ -14,3 +13,5 @@ class Sound:
         self.player_pain = pg.mixer.Sound(self.path + 'player_pain.wav')
         self.theme = pg.mixer.music.load(self.path + 'theme.mp3')
         pg.mixer.music.set_volume(0.3)
+
+# you can add your favorite sounds here

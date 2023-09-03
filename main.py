@@ -11,7 +11,6 @@ from weapon import *
 from sound import *
 from pathfinding import *
 
-
 class Game:
     def __init__(self):
         pg.init()
@@ -68,7 +67,7 @@ class Game:
             self.update()
             self.draw()
 
-
 if __name__ == '__main__':
     game = Game()
     game.run()
+# main file which you should run to play the game

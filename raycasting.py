@@ -2,7 +2,6 @@ import pygame as pg
 import math
 from settings import *
 
-
 class RayCasting:
     def __init__(self, game):
         self.game = game
@@ -103,3 +102,4 @@ class RayCasting:
     def update(self):
         self.ray_cast()
         self.get_objects_to_render()
+# raycasting here
